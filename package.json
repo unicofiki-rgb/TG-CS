@@ -1,0 +1,18 @@
+{
+  "name": "jinlongwei-telegram-customer-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram customer service bot with admin panel",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "grammy": "^1.35.0"
+  }
+}
